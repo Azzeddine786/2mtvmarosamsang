@@ -14,11 +14,11 @@
     "native_enabled": true,
     "native_every": 4,
 
-    "native_admob": "ca-app-pub-39402560999422247696110",
-    "native_fb": "1522203031670641_2026973564526916",
+    "native_admob": "ca-app-pub-6369463662612526/3585303318",
+    "native_fb": "",
 
     "admob_banner": "ca-app-pub-3940256099942544/6300978111",
-    "admob_inter": "ca-app-pub-3940256099942544/1033173712",
+    "admob_inter": ca-app-pub-6369463662612526/6434827932",
     "admob_open": "ca-app-pub-39402560942544/9257395921",
 
     "fb_banner": "IMG_16_9_APP_INSTALL#33698835503_2964944860251047",
