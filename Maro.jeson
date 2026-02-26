@@ -1,0 +1,163 @@
+{
+  "version": "2026.1.0",
+  "last_updated": "2026-02-10",
+  "update_message": "تم تفعيل الإعلانات Native للتجربة 🔥",
+  "total_channels": 12,
+  "author": "Morocco TV App",
+  "website": "https://moroccotv.app",
+
+  "ads": {
+    "enable_ads": true,
+    "open_on_start": true,
+    "inter_every": 2,
+
+    "native_enabled": true,
+    "native_every": 4,
+
+    "native_admob": "ca-app-pub-39402560999422247696110",
+    "native_fb": "1522203031670641_2026973564526916",
+
+    "admob_banner": "",
+    "admob_inter": "ca-app-pub-394025609994254433173712",
+    "admob_open": "ca-app-pub-39402560942544/9257395921",
+
+    "fb_banner": "IMG_16_9_APP_INSTALL#33698835503_2964944860251047",
+    "fb_inter": "1522203031670641_2026974077860198"
+  },
+  "channels": [
+    {
+      "id": "channel_001",
+      "name_ar": "المغربية",
+      "name_fr": "Al Maghribia",
+      "logo": "maghribia",
+      "stream_url": "https://stream-lb.livemedia.ma/almaghribia/hls/stream_0/playlist.m3u8",
+      "web_url": "https://snrt.player.easybroadcast.io/events/73_almaghribia_83tz85q",
+      "category": "مغربية",
+      "is_snrt": true,
+      "is_active": true,
+      "order": 4
+    },
+    {
+      "id": "channel_002",
+      "name_ar": "الأولى",
+      "name_fr": "Al Oula",
+      "logo": "aloula",
+      "stream_url": "https://stream-lb.livemedia.ma/alaoula-tnt/hls/stream_0/playlist.m3u8",
+      "web_url": "https://snrt.player.easybroadcast.io/events/73_aloula_w1dqfwm",
+      "category": "مغربية",
+      "is_snrt": true,
+      "is_active": true,
+      "order": 2
+    },
+    {
+      "id": "channel_003",
+      "name_ar": "الرياضية",
+      "name_fr": "Arryadia",
+      "logo": "arryadia",
+      "stream_url": "https://stream-lb.livemedia.ma/arryadia-hd-02/hls/stream_0/playlist.m3u8",
+      "web_url": "https://snrt.player.easybroadcast.io/events/73_arryadia_k2tgcj0",
+      "category": "رياضية",
+      "is_snrt": true,
+      "is_active": true,
+      "order": 3
+    },
+    
+    {
+      "id": "channel_004",
+      "name_ar": "2M",
+      "name_fr": "Deux M",
+      "logo": "m2",
+      "stream_url": "https://stream-lb.livemedia.ma/2m-tnt/hls/stream_0/playlist.m3u8",
+      "web_url": "https://stream-lb.livemediama.com/2m-tnt/hls/stream_0/playlist.m3u8",
+      "category": "مغربية",
+      "is_snrt": false,
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "channel_005",
+      "name_ar": "السادسة",
+      "name_fr": "Assadissa",
+      "logo": "assadissa",
+      "stream_url": "https://stream-lb.livemedia.ma/assadissa/hls/stream_0/playlist.m3u8",
+      "web_url": "https://snrtlive.ma/fr/assadissa",
+      "category": "مغربية",
+      "is_snrt": true,
+      "is_active": true,
+      "order": 5
+    },
+    {
+      "id": "channel_006",
+      "name_ar": "الأمازيغية",
+      "name_fr": "Tamazight TV",
+      "logo": "tamazight",
+      "stream_url": "https://stream-lb.livemedia.ma/tamazight/hls/stream_0/playlist.m3u8",
+      "web_url": "https://snrt.player.easybroadcast.io/events/73_assadissa_7b7u5n1",
+      "category": "مغربية",
+      "is_snrt": true,
+      "is_active": true,
+      "order": 6
+    },
+    {
+      "id": "channel_007",
+      "name_ar": "العيون",
+      "name_fr": "Laayoune TV",
+      "logo": "laayoune",
+      "stream_url": "https://stream-lb.livemedia.ma/laayounetv/hls/stream_0/playlist.m3u8",
+      "web_url": "https://snrt.player.easybroadcast.io/events/73_laayoune_pgagr52",
+      "category": "جهوية",
+      "is_snrt": true,
+      "is_active": true,
+      "order": 7
+    },
+    {
+      "id": "channel_008",
+      "name_ar": "أفلام",
+      "name_fr": "Aflam TV",
+      "logo": "aflam",
+      "stream_url": "https://stream-lb.livemedia.ma/aflam/hls/stream_0/playlist.m3u8",
+      "web_url": "https://snrtlive.ma/fr/aflam",
+      "category": "ترفيه",
+      "is_snrt": true,
+      "is_active": true,
+      "order": 8
+    },
+    {
+      "id": "channel_009",
+      "name_ar": "Medi1TV",
+      "name_fr": "Médi 1 TV",
+      "logo": "Medi1",
+      "stream_url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/corp/83_medi1tv-arabic_g90v4ec_240p/chunks_dvr.m3u8",
+      "web_url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8",
+      "category": "أخبار",
+      "is_snrt": false,
+      "is_active": true,
+      "order": 9
+    },
+    {
+      "id": "channel_010",
+      "name_ar": "M24",
+      "name_fr": "M24 TV",
+      "logo": "m24",
+      "stream_url": "https://stream-lb.livemediama.com/m24maroc/hls/stream_0/playlist.m3u8",
+      "web_url": "https://stream-lb.livemediama.com/m24maroc/hls/stream_0/playlist.m3u8",
+      "category": "أخبار",
+      "is_snrt": false,
+      "is_active": true,
+      "order": 10
+    },
+    {
+      "id": "channel_011",
+      "name_ar": "Tele Maroc",
+      "name_fr": "Télé Maroc",
+      "logo": "telemaroc",
+      "stream_url": "https://stream-lb.livemedia.ma/telemaroc/hls/stream_0/playlist.m3u8",
+      "web_url": "https://customer-gllhkkbamkskdl1p.cloudflarestream.com/eyJhbGciOiJSUzI1NiIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIn0.eyJzdWIiOiJmY2ZmZWQyMjIyMDdiNmUyZjY1YWMzOTgxNjVkYTA4YyIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIiwiZXhwIjoxNzcxOTIxMzgxLCJhY2Nlc3NSdWxlcyI6W3sidHlwZSI6ImlwLmdlb2lwLmNvdW50cnkiLCJhY3Rpb24iOiJibG9jayIsImNvdW50cnkiOlsiUlUiLCJCWSJdfV19.IEGbufnYnlqisOFLoJipHOsAaKR9C2ZayCD45dausSs3mz2XVxhGQvRZQznM618Q8tyxRQczmSzarBq_BK9JHtn2UHxVh31XVWuNiCU4mIuSSE0CZp0bsVFYT4gdTwnD15WgZnhRgWVi6pns3xO4_YWy2zWqxd9i65Rc9hqvfZS3Rbv777g-lHGvHkHvVMMuGWGqP8eOEgAsGRt71ECGPGXb31-JoMDPyzqBTYo3FY7x29giERxQ3Pvo3mcfS1nBcnU3B1StXCKVbiZWJE90luxShNZs2Uw72byCO-tak0VL5lAWCyhL-kQMZlQvRhrMjgxy5ca0cyQM_G6mu5TYtg/manifest/stream_t17813ec6aa07ad69cbe09962c5d57922_r1446674271.m3u8?llhlsHBs=0.9&CMCD=cid%3D%221771878181405%22%2Cmtp%3D43300%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22ad435d89-c739-4a27-9da5-63043179723c%22",
+      "category": "مغربية",
+      "is_snrt": false,
+      "is_active": true,
+      "order": 11
+
+    }
+  ]
+}
