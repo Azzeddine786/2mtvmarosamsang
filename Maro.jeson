@@ -22,7 +22,7 @@
     "admob_open": "ca-app-pub-6369463662612526/4322731530",
 
     "fb_banner": "",
-    "fb_inter": "1522203031670641_2026974077860198",
+    "fb_inter": "",
 
     "ironsource": {
       "enabled": true,
@@ -35,11 +35,12 @@
       "banner_size": "BANNER",
       "banner_position": "bottom",
 
+      
       "ad_units": {
-        "banner": "oyp16q8bhtdwdwan",
-        "interstitial": "hd3i67olodn910e2",
-        "native": "sic5kdgrlb8pjhz6",
-        "rewarded": "6150umc8ql63d5ix"
+        "banner": "DefaultBanner",
+        "interstitial": "DefaultInterstitial",
+        "native": "DefaultNative",
+        "rewarded": "DefaultRewarded"
       },
       
       "mediation": {
@@ -52,7 +53,7 @@
         },
         "facebook": {
           "banner": "",
-          "interstitial": "1522203031670641_2026974077860198",
+          "interstitial": "",
           "native": "",
           "rewarded": ""
         }
