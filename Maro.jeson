@@ -35,11 +35,12 @@
       "test_mode": false,
       "banner_size": "BANNER",
       "banner_position": "bottom",
-      
+
       "ad_units": {
-        "banner": "2wjlxnectt04tfwn",
-        "interstitial": "bmlej0ekwaqptel0",
-        "rewarded": "nihbgfye0lpt4kin"
+        "banner": "oyp16q8bhtdwdwan",
+        "interstitial": "hd3i67olodn910e2",
+        "native": "sic5kdgrlb8pjhz6",
+        "rewarded": "6150umc8ql63d5ix"
       },
       
       "bidding": {
