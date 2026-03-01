@@ -1,7 +1,7 @@
 {
   "version": "2026.3.1",
   "last_updated": "2026-03-01",
-  "update_message": "تم إصلاح IronSource مع Mediation 🔥",
+  "update_message": "ترتيب الإعلانات: AdMob → Facebook → IronSource 🔥",
   "total_channels": 11,
   "author": "Morocco TV App",
   "website": "https://moroccotv.app",
@@ -14,11 +14,11 @@
     "native_enabled": true,
     "native_every": 4,
 
-    "native_admob": "ca-app-pub-6369463662612526/3585303318",
+    "native_admob": "ca-app-pub-6369463662612526/9004745408",
     "native_fb": "",
 
     "admob_banner": "ca-app-pub-6369463662612526/6378582062",
-    "admob_inter": "ca-app-pub-6369463662612526/6434827932",
+    "admob_inter": "ca-app-pub-6369463662612526/7691663739",
     "admob_open": "ca-app-pub-3940256099942544/97395921",
 
     "fb_banner": "",
@@ -44,24 +44,26 @@
       
       "mediation": {
         "admob": {
-          "banner": "ca-app-pub-6369463662612526/3992497428",
-          "interstitial": "ca-app-pub-6369463662612526/6434827932",
-          "native": "ca-app-pub-6369463662612526/3585303318",
+          "banner": "ca-app-pub-6369463662612526/6378582062",
+          "interstitial": "ca-app-pub-6369463662612526/7691663739",
+          "native": "ca-app-pub-6369463662612526/9004745408",
+          "rewarded": "",
           "app_open": "ca-app-pub-3940256099942544/97395921"
         },
         "facebook": {
           "banner": "",
           "interstitial": "1522203031670641_2026974077860198",
-          "native": ""
+          "native": "",
+          "rewarded": ""
         }
       }
     },
 
     "ad_priority": {
-      "interstitial": ["ironsource", "admob", "facebook"],
-      "banner": ["ironsource", "admob", "facebook"],
-      "native": ["ironsource", "admob", "facebook"],
-      "rewarded": ["ironsource", "admob"]
+      "interstitial": ["admob", "facebook", "ironsource"],
+      "banner": ["admob", "facebook", "ironsource"],
+      "native": ["admob", "facebook", "ironsource"],
+      "rewarded": ["admob", "ironsource"]
     }
   },
 
