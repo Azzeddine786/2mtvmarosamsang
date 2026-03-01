@@ -1,7 +1,7 @@
 {
   "version": "2026.3.1",
   "last_updated": "2026-03-01",
-  "update_message": "تم إضافة دعم IronSource مع Bidding وإعلانات Native 🔥",
+  "update_message": "تم إصلاح IronSource مع Mediation 🔥",
   "total_channels": 11,
   "author": "Morocco TV App",
   "website": "https://moroccotv.app",
@@ -26,12 +26,11 @@
 
     "ironsource": {
       "enabled": true,
-      "app_key": "2564938d5",
+      "app_key": "2562543d5",
       "banner_enabled": true,
       "interstitial_enabled": true,
       "rewarded_enabled": false,
       "native_enabled": false,
-      "bidding_enabled": true,
       "test_mode": false,
       "banner_size": "BANNER",
       "banner_position": "bottom",
@@ -43,16 +42,25 @@
         "rewarded": "6150umc8ql63d5ix"
       },
       
-      "bidding": {
-        "admob": true,
-        "facebook": true
+      "mediation": {
+        "admob": {
+          "banner": "ca-app-pub-6369463662612526/6378582062",
+          "interstitial": "ca-app-pub-6369463662612526/7691663739",
+          "native": "ca-app-pub-6369463662612526/9004745408",
+          "app_open": "ca-app-pub-3940256099942544/97395921"
+        },
+        "facebook": {
+          "banner": "",
+          "interstitial": "1522203031670641_2026974077860198",
+          "native": ""
+        }
       }
     },
 
     "ad_priority": {
       "interstitial": ["ironsource", "admob", "facebook"],
       "banner": ["ironsource", "admob", "facebook"],
-      "native": ["admob", "facebook"],
+      "native": ["ironsource", "admob", "facebook"],
       "rewarded": ["ironsource", "admob"]
     }
   },
