@@ -1,7 +1,7 @@
 {
-  "version": "2026.1.0",
-  "last_updated": "2026-02-10",
-  "update_message": "تم إضافة دعم IronSource مع Bidding 🔥",
+  "version": "2026.3.1",
+  "last_updated": "2026-03-01",
+  "update_message": "تم إضافة دعم IronSource مع Bidding وإعلانات Native 🔥",
   "total_channels": 11,
   "author": "Morocco TV App",
   "website": "https://moroccotv.app",
@@ -34,7 +34,18 @@
       "bidding_enabled": true,
       "test_mode": false,
       "banner_size": "BANNER",
-      "banner_position": "bottom"
+      "banner_position": "bottom",
+      
+      "ad_units": {
+        "banner": "DefaultBanner",
+        "interstitial": "DefaultInterstitial",
+        "rewarded": "DefaultRewardedVideo"
+      },
+      
+      "bidding": {
+        "admob": true,
+        "facebook": true
+      }
     },
 
     "ad_priority": {
