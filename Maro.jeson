@@ -37,9 +37,9 @@
 
       
       "ad_units": {
-        "banner": "DefaultBanner",
-        "interstitial": "DefaultInterstitial",
-        "native": "DefaultNative",
+        "banner": "2562543d5",
+        "interstitial": "2562543d5",
+        "native": "2562543d5",
         "rewarded": "DefaultRewarded"
       },
       
