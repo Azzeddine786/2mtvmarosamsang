@@ -36,10 +36,11 @@
       "banner_position": "bottom",
 
       
+      
       "ad_units": {
-        "banner": "mhnxn9me3x0dcbj3",
-        "interstitial": "2562543d5",
-        "native": "pqkzg4t609q5zzoh",
+        "banner": "DefaultBanner",
+        "interstitial": "DefaultInterstitial",
+        "native": "DefaultNative",
         "rewarded": "DefaultRewarded"
       },
       
